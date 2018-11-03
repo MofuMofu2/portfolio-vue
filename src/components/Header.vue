@@ -1,8 +1,10 @@
 <template>
-  <h1>{{ title }}</h1>
+  <div class="tite-header">
+    <h1>{{ title }}</h1>
+  </div>
 </template>
+
 <script>
-import 'normalize.css'
 export default {
   name: 'titleHeader',
   data () {
