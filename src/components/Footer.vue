@@ -1,6 +1,6 @@
 <template>
   <div class="page-footer">
-    <p>{{ text }}</p>
+    <a href="https://twitter.com/froakie0021"><img :src="image_src" alt="twitter"></a>
   </div>
 </template>
 
@@ -9,12 +9,19 @@ export default {
   name: 'pageFooter',
   data () {
     return {
-      text: 'twitter'
+      image_src: require("../assets/Twitter_Social_Icon_Rounded_Square_Color.svg")
     }
   }
 }
 </script>
 
 <style scoped>
-
+  .page-footer {
+    background-color: #32BDED;
+    height: 100px;
+  }
+  img {
+    height: 40px;
+    width: 40px;
+  }
 </style>
