@@ -15,8 +15,10 @@ export default {
 
 <style scoped>
   h1 {
+    align-items: center;
     background-color: #32BDED;
     color: #E5E400;
+    display: flex;
     height: 50px;
     margin: 0;
   }
