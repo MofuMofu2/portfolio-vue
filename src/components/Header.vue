@@ -2,6 +2,7 @@
   <h1>{{ title }}</h1>
 </template>
 <script>
+import 'normalize.css'
 export default {
   name: 'titleHeader',
   data () {
