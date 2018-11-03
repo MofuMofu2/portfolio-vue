@@ -19,6 +19,7 @@ export default {
     background-color: #32BDED;
     color: #E5E400;
     display: flex;
+    font-size: 28px;
     height: 50px;
     margin: 0;
   }
