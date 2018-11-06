@@ -17,7 +17,7 @@ export default {
 
 <style scoped>
   .page-footer {
-    background-color: #32BDED;
+    background-color: #E5E400;
     height: 100px;
   }
   img {
