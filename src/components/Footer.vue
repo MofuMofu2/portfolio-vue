@@ -1,8 +1,14 @@
 <template>
   <div class="page-footer">
-    <a href="https://twitter.com/froakie0021" target="blank"><img :src="twitter_src" alt="twitter"></a>
-    <a href="https://github.com/MofuMofu2/portfolio-vue" target="blank"><img :src="github_src" alt="github"></a>
+    <div class="icons">
+      <a href="https://twitter.com/froakie0021" target="blank"><img :src="twitter_src" alt="twitter"></a>
+      <a href="https://github.com/MofuMofu2/portfolio-vue" target="blank"><img :src="github_src" alt="github"></a>
+    </div>
+    <div class="copyright">
+      <p>©︎ 2018 りまりま団</p>
+    </div>
   </div>
+  
 </template>
 
 <script>
@@ -22,9 +28,18 @@ export default {
     background-color: #E5E400;
     height: 100px;
   }
-  img {
+  .icons {
+    margin-right: 30px;
+    text-align: right;
+  }
+  .icons img {
     height: 30px;
-    margin: 5px;
+    margin: 10px;
     width: 30px;
   }
+  .page-footer p {
+    color: #32BDED;
+    text-align: center;
+  }
+
 </style>
