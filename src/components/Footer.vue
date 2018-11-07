@@ -1,7 +1,7 @@
 <template>
   <div class="page-footer">
-    <a href="https://twitter.com/froakie0021"><img :src="twitter_src" alt="twitter"></a>
-    <a href="https://github.com/MofuMofu2/portfolio-vue"><img :src="github_src" alt="github"></a>
+    <a href="https://twitter.com/froakie0021" target="blank"><img :src="twitter_src" alt="twitter"></a>
+    <a href="https://github.com/MofuMofu2/portfolio-vue" target="blank"><img :src="github_src" alt="github"></a>
   </div>
 </template>
 
