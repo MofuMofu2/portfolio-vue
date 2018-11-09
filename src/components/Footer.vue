@@ -14,7 +14,7 @@
 <script>
 export default {
   name: 'pageFooter',
-  data () {
+  data() {
     return {
       twitter_src: require("../assets/Twitter_Social_Icon_Rounded_Square_Color.svg"),
       github_src: require("../assets/GitHub-Mark.svg")
