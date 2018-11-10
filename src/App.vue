@@ -11,6 +11,7 @@
       </div>
       <div class="right-contents">
         <book-description></book-description>
+        <book-info></book-info>
       </div>
     </div>
     <page-footer></page-footer>
@@ -22,6 +23,7 @@ import 'normalize.css'
 import titleHeader from './components/Header.vue'
 import bookDescription from './components/BookDescription.vue'
 import bookImage from './components/BookImage.vue'
+import bookInfo from './components/BookInfo.vue'
 import bookTitle from './components/BookTitle.vue'
 import descriptionList from './components/DescriptionList.vue'
 import pageFooter from './components/Footer.vue'
@@ -32,6 +34,7 @@ export default {
     'title-header': titleHeader,
     'book-description':bookDescription,
     'book-image': bookImage,
+    'book-info': bookInfo,
     'book-title': bookTitle,
     'description-list': descriptionList,
     'page-footer': pageFooter
