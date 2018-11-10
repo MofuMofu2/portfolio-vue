@@ -17,7 +17,6 @@ export default {
 
 <style scoped>
   .book-description {
-    height: 250px;
     margin-top: 20px;
     width: 570px;
   }
