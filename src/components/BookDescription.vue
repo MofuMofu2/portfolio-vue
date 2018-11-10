@@ -18,6 +18,11 @@ export default {
 <style scoped>
   .book-description {
     height: 250px;
+    margin-top: 20px;
     width: 570px;
+  }
+  .description {
+    font-size: 16px;
+    line-height: 26px;
   }
 </style>
