@@ -1,11 +1,11 @@
 <template>
   <div class="book-info">
     <div class="basic-info">
-      <h4>発刊年月・イベント名</h4>
       <div class="published-year">
-        <ul>
-          <li v-for="(info, key) in infoTexts" v-bind:key="info.id"> {{ info.caption }}</li>
-        </ul>
+        <h4>発刊年月・イベント名</h4>
+        <div class="published-info" v-for="(info, key) in infoTexts" v-bind:key="info.id">
+          {{ info.caption }}
+        </div>
       </div>
     </div>
   </div>
@@ -27,10 +27,15 @@ export default {
 </script>
 
 <style scoped>
+  .book-info {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .published-info {
+    float: left;
+    margin-right: 5px;
+  }
   h4 {
     font-size: 20px;
-  }
-  li {
-    list-style: none;
   }
 </style>
