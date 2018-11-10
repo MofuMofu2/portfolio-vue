@@ -1,5 +1,5 @@
 <template>
-  <booth-button>aaa</booth-button>
+  <div class="booth-button">aaa</div>
 </template>
 
 <script>
