@@ -1,10 +1,17 @@
 <template>
-  <div class="book-description">せつめいせつめい</div>
+  <div class="book-description">
+    <div class="description" v-bind="description">{{ description }}</div>
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'bookDescription'
+  name: 'bookDescription',
+  data() {
+    return {
+      description: 'Elasticsearch社のプロダクトであるElasticsearch・Logstash・Kibanaを用いてログを分析してみようという本です。各ミドルウェアのインストールからKibanaでグラフを描画するまでの道のりを一通り網羅しつつまとめました。インプレスR＆Dさんから商業化もされています。'
+      }
+  }
 }
 </script>
 
