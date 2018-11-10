@@ -12,6 +12,7 @@
       <div class="right-contents">
         <book-description></book-description>
         <book-info></book-info>
+        <booth-button></booth-button>
       </div>
     </div>
     <page-footer></page-footer>
@@ -25,6 +26,7 @@ import bookDescription from './components/BookDescription.vue'
 import bookImage from './components/BookImage.vue'
 import bookInfo from './components/BookInfo.vue'
 import bookTitle from './components/BookTitle.vue'
+import boothButton from './components/BoothButton.vue'
 import descriptionList from './components/DescriptionList.vue'
 import pageFooter from './components/Footer.vue'
 
@@ -36,6 +38,7 @@ export default {
     'book-image': bookImage,
     'book-info': bookInfo,
     'book-title': bookTitle,
+    'booth-button': boothButton,
     'description-list': descriptionList,
     'page-footer': pageFooter
   }
