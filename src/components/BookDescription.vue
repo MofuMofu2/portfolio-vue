@@ -16,7 +16,8 @@ export default {
 </script>
 
 <style scoped>
-  .description {
+  .book-description {
     height: 250px;
+    width: 570px;
   }
 </style>
