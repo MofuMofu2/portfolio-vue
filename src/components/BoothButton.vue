@@ -1,6 +1,8 @@
 <template>
   <div class="booth-button">
-    <a href="booth.url">電子版をポチる</a>
+    <div class="button">
+      <a href="booth.url"><p>電子版をポチる</p></a>
+    </div>
   </div>
 </template>
 
@@ -20,5 +22,24 @@ export default {
 </script>
 
 <style scoped>
-
+  .booth-button {
+    margin-top: 60px;
+    height: 200px;
+  }
+  .button {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+  }
+  a {
+    background-color: #32BDED;
+    color: #E40067;
+    font-size: 20px;
+    font-weight: bold;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    width: 400px;
+    
+  }
 </style>
