@@ -4,6 +4,7 @@
     <div class="main">
       <book-title></book-title>
       <book-image></book-image>
+      <description-list></description-list>
       <book-description></book-description>
     </div>
     <page-footer></page-footer>
@@ -16,6 +17,7 @@ import titleHeader from './components/Header.vue'
 import bookDescription from './components/BookDescription.vue'
 import bookImage from './components/BookImage.vue'
 import bookTitle from './components/BookTitle.vue'
+import descriptionList from './components/DescriptionList.vue'
 import pageFooter from './components/Footer.vue'
 
 export default {
@@ -25,6 +27,7 @@ export default {
     'book-description':bookDescription,
     'book-image': bookImage,
     'book-title': bookTitle,
+    'description-list': descriptionList,
     'page-footer': pageFooter
   }
 }
