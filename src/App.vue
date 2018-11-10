@@ -4,6 +4,7 @@
     <div class="main">
       <book-title></book-title>
       <book-image></book-image>
+      <book-description></book-description>
     </div>
     <page-footer></page-footer>
   </div>
@@ -12,6 +13,7 @@
 <script>
 import 'normalize.css'
 import titleHeader from './components/Header.vue'
+import bookDescription from './components/BookDescription.vue'
 import bookImage from './components/BookImage.vue'
 import bookTitle from './components/BookTitle.vue'
 import pageFooter from './components/Footer.vue'
@@ -20,6 +22,7 @@ export default {
   name: 'app',
   components: {
     'title-header': titleHeader,
+    'book-description':bookDescription,
     'book-image': bookImage,
     'book-title': bookTitle,
     'page-footer': pageFooter
