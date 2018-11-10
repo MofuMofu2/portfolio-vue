@@ -1,6 +1,6 @@
 <template>
   <div class="book-description">
-    <div class="description" v-bind="description">{{ description }}</div>
+    <div class="description" v-bind:description="text">{{ text }}</div>
   </div>
 </template>
 
@@ -9,12 +9,14 @@ export default {
   name: 'bookDescription',
   data() {
     return {
-      description: 'Elasticsearch社のプロダクトであるElasticsearch・Logstash・Kibanaを用いてログを分析してみようという本です。各ミドルウェアのインストールからKibanaでグラフを描画するまでの道のりを一通り網羅しつつまとめました。インプレスR＆Dさんから商業化もされています。'
+      text: 'Elasticsearch社のプロダクトであるElasticsearch・Logstash・Kibanaを用いてログを分析してみようという本です。各ミドルウェアのインストールからKibanaでグラフを描画するまでの道のりを一通り網羅しつつまとめました。インプレスR＆Dさんから商業化もされています。'
       }
   }
 }
 </script>
 
 <style scoped>
-
+  .description {
+    height: 250px;
+  }
 </style>
