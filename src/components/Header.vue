@@ -7,7 +7,7 @@
 <script>
 export default {
   name: 'titleHeader',
-  data () {
+  data() {
     return {
       title: '同人誌が…溢れ出す！'
     }
