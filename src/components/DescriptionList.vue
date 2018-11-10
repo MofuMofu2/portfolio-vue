@@ -17,9 +17,9 @@ export default {
   data() {
     return {
       overviews: [
-        { promotion: 'ふざけたタイトル' },
-        { promotion: 'なにも伝わってこない表紙' },
-        { promotion: '布教本のはずなのにまさかの省略記法を使っている' }
+        { promotion: '' },
+        { promotion: '' },
+        { promotion: '' }
       ]
     }
   }

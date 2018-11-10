@@ -11,7 +11,7 @@ export default {
   name: 'boothButton',
   data() {
     return {
-        url: 'https://booth.pm/ja/items/490460'
+        url: ''
     }
   }
 }

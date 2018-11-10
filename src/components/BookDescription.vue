@@ -9,7 +9,7 @@ export default {
   name: 'bookDescription',
   data() {
     return {
-      text: 'Elasticsearch社のプロダクトであるElasticsearch・Logstash・Kibanaを用いてログを分析してみようという本です。各ミドルウェアのインストールからKibanaでグラフを描画するまでの道のりを一通り網羅しつつまとめました。インプレスR＆Dさんから商業化もされています。'
+      text: ''
       }
   }
 }
