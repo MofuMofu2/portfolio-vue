@@ -1,9 +1,11 @@
 <template>
   <div id="app">
-    <title-header></title-header>
+    <div class="header">
+      <title-header></title-header>
+      <book-title></book-title>
+    </div>
     <div class="main">
       <div class="left-contents">
-        <book-title></book-title>
         <book-image></book-image>
         <description-list></description-list>
       </div>
