@@ -11,7 +11,7 @@ export default {
   name: 'bookTitle',
   data() {
     return {
-      item: "ログと情報をレッツ・ラ・まぜまぜ！～ELK Stack で作るBI環境～"
+      item:
     }
   }
 }
