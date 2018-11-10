@@ -2,10 +2,14 @@
   <div id="app">
     <title-header></title-header>
     <div class="main">
-      <book-title></book-title>
-      <book-image></book-image>
-      <description-list></description-list>
-      <book-description></book-description>
+      <div class="left-contents">
+        <book-title></book-title>
+        <book-image></book-image>
+        <description-list></description-list>
+      </div>
+      <div class="right-contents">
+        <book-description></book-description>
+      </div>
     </div>
     <page-footer></page-footer>
   </div>
@@ -38,6 +42,15 @@ export default {
     background-color: #E5E400;
   }
   .main {
+    display: flex;
     margin: 20px;
+  }
+
+  .left-contents {
+    width: 50%;
+  }
+
+  .right-contents {
+    width: 50%;
   }
 </style>
