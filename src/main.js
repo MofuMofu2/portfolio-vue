@@ -7,16 +7,16 @@ Vue.config.productionTip = false;
 
 Vue.use(VueRouter)
 
-const routes = [
-  { path: '/', component: Top},
-  { path: '/article', component: Article },
-  { path: '/top', component: Top}
-];
-
-const router = new VueRouter ({
-  routes
+export default new VueRouter ({
+  routes: [
+    {
+      path: '/', component: Top
+    },
+    {
+      path: '/article', component: Article
+    },
+    {
+      path: '/top', component: Top
+    }
+  ]
 });
-
-const app = new Vue({
-  router
-}).$mount('#app');
