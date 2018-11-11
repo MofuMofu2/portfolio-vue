@@ -31,7 +31,7 @@ import descriptionList from './components/DescriptionList.vue'
 import pageFooter from './components/Footer.vue'
 
 export default {
-  name: 'app',
+  name: 'article',
   components: {
     'title-header': titleHeader,
     'book-description':bookDescription,
