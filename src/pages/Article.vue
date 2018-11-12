@@ -21,14 +21,14 @@
 
 <script>
 import 'normalize.css'
-import titleHeader from './components/Header.vue'
-import bookDescription from './components/BookDescription.vue'
-import bookImage from './components/BookImage.vue'
-import bookInfo from './components/BookInfo.vue'
-import bookTitle from './components/BookTitle.vue'
-import boothButton from './components/BoothButton.vue'
-import descriptionList from './components/DescriptionList.vue'
-import pageFooter from './components/Footer.vue'
+import titleHeader from '../components/Header.vue'
+import bookDescription from '../components/BookDescription.vue'
+import bookImage from '../components/BookImage.vue'
+import bookInfo from '../components/BookInfo.vue'
+import bookTitle from '../components/BookTitle.vue'
+import boothButton from '../components/BoothButton.vue'
+import descriptionList from '../components/DescriptionList.vue'
+import pageFooter from '../components/Footer.vue'
 
 export default {
   name: 'article',
