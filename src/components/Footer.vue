@@ -16,8 +16,8 @@ export default {
   name: 'pageFooter',
   data() {
     return {
-      twitter_src: require("../assets/Twitter_Social_Icon_Rounded_Square_Color.svg"),
-      github_src: require("../assets/GitHub-Mark.svg")
+      twitter_src: require("../assets/footer/Twitter_Social_Icon_Rounded_Square_Color.svg"),
+      github_src: require("../assets/footer/GitHub-Mark.svg")
     }
   }
 }

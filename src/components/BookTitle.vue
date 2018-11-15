@@ -11,7 +11,7 @@ export default {
   name: 'bookTitle',
   data() {
     return {
-      item:
+      item: "test"
     }
   }
 }
