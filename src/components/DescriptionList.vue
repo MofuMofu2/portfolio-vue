@@ -17,15 +17,15 @@ export default {
   name: 'descriptionList',
   data() {
     return {
-      bookData: bookData,
+      bookData: bookData
     }
   },
   computed: {
     promotionData: function() {
       // 繰り返し処理でoverviews_promotionの値を全部抜いて新しい配列を作り、returnする
       const arrayLength = bookData[0].overviews.length;
-      const arrayData = bookData[0].overviews
-      const promotions = []
+      const arrayData = bookData[0].overviews;
+      const promotions = [];
       for (let count = 0; count < arrayLength; count++) {
         const data = arrayData[count].overviews_promotion;
         promotions.push(data);
