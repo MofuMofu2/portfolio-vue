@@ -8,14 +8,16 @@
         </li>
       </ul>
     </div>
-    </div>
+  </div>
 </template>
 
 <script>
+import promotionData from '../assets/book-data.json'
 export default {
   name: 'descriptionList',
   data() {
     return {
+      promotionData: promotionData,
       overviews: [
         { promotion: '' },
         { promotion: '' },
