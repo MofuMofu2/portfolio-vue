@@ -25,6 +25,7 @@ export default {
       console.log(bookData);
       const dataList = bookData;
       console.log(dataList[0]);
+      console.log(dataList[0].overviews);
       console.log(bookData[0].overviews.overviews_promotion);
       return bookData[0].overviews.overviews_promotion;
     }
