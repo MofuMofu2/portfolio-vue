@@ -23,6 +23,8 @@ export default {
   computed: {
     promotionData: function() {
       console.log(bookData);
+      const dataList = bookData;
+      console.log(dataList[0]);
       console.log(bookData[0].overviews.overviews_promotion);
       return bookData[0].overviews.overviews_promotion;
     }
