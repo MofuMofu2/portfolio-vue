@@ -3,8 +3,8 @@
     <div class="overview">
       <h3>KUSO POINT</h3>
       <ul>
-        <li v-for="(item, keys) in promotionData " v-bind:key="item.id">
-          {{ item.overviews_promotion }}
+        <li v-for="item in promotionData">
+          {{ item }}
         </li>
       </ul>
     </div>
