@@ -3,8 +3,8 @@
     <div class="overview">
       <h3>KUSO POINT</h3>
       <ul>
-        <li v-for="(item, key) in overviews" v-bind:key="item.id">
-          {{ item.promotion }}
+        <li v-for="(item, keys) in promotionData " v-bind:key="item.id">
+          {{ item.overviews_promotion }}
         </li>
       </ul>
     </div>
@@ -12,17 +12,19 @@
 </template>
 
 <script>
-import promotionData from '../assets/book-data.json'
+import bookData from '../assets/book-data.json'
 export default {
   name: 'descriptionList',
   data() {
     return {
-      promotionData: promotionData,
-      overviews: [
-        { promotion: '' },
-        { promotion: '' },
-        { promotion: '' }
-      ]
+      bookData: bookData,
+    }
+  },
+  computed: {
+    promotionData: function() {
+      console.log(bookData);
+      console.log(bookData[0].overviews.overviews_promotion);
+      return bookData[0].overviews.overviews_promotion;
     }
   }
 }
