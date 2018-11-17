@@ -22,10 +22,10 @@ export default {
   },
   computed: {
     promotionData: function() {
-      console.log(bookData);
-      const dataList = bookData[0].overviews;
-      console.log(bookData[0].overviews[0].overviews_promotion);
-      return bookData[0].overviews.overviews_promotion;
+      // 繰り返し処理でoverviews_promotionの値だけ抜いてreturnする
+      const dataList = bookData[0].overviews.forEach((array_element, index, array) => {
+        console.log(array_element);
+      });
     }
   }
 }
