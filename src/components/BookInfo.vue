@@ -23,8 +23,10 @@
 import bookData from '../assets/book-data.json'
 export default {
   name: 'bookInfo',
-  data: {
-    bookData: bookData,
+  data() {
+    return {
+      bookData: bookData
+    }
   },
   computed: {
     infoTexts: function() {
@@ -39,6 +41,18 @@ export default {
       info.push(month);
       info.push(eventName);
       return info;
+    },
+    posts: function() {
+      // 最終的に返却したい配列を定義
+      const url = [];
+      // JSON内のbook＿urlの配列の長さ・配列のデータを取得し、本のURLの値だけを持っている配列を作成する。
+      const arrayLength = bookData[0].book_url.length;
+      const arrayData = bookData[0].book_url;
+      for(let count = 0; count < arrayLength; count++){
+        const data = arrayData[count].book_url_url;
+        url.push(data);
+      }
+      return url;
     }
   }
 }
