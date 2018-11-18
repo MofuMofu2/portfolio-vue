@@ -2,7 +2,7 @@
   <div id="app">
     <div class="header">
       <title-header></title-header>
-      <book-title></book-title>
+      <book-title v-bind:id="currentBookId"></book-title>
     </div>
     <div class="main">
       <button class="back_button" type="button" v-on:click="removeCount">
@@ -39,7 +39,6 @@ import pageFooter from './components/Footer.vue'
 
 export default {
   name: 'app',
-  props: ['currentBookId'],
   components: {
     'title-header': titleHeader,
     'book-description':bookDescription,
@@ -58,6 +57,11 @@ export default {
       right_arrow: require("./assets/arrow/baseline-keyboard_arrow_right-24px.svg")
     }
   },
+  computed: {
+    currentBookId: function() {
+      return this.bookId;
+    }
+  },
   methods: {
     addCount() {
       if (this.bookId !== bookData.length ) {
@@ -73,9 +77,7 @@ export default {
         return 0;
       }
     }
-
   }
-
 }
 </script>
 

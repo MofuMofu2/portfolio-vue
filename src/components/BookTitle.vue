@@ -1,7 +1,7 @@
 <template>
   <div class="book-title">
     <div class="fanbook-title">
-      <div class="fan-book" v-bind:title="bookTitle">{{ bookTitle }}</div>
+      <div class="fan-book" v-bind:title="bookTitle" v-bind:id="currentBookId">{{ bookTitle }}</div>
     </div>
   </div>
 </template>
@@ -10,6 +10,7 @@
 import bookData from '../assets/book-data.json'
 export default {
   name: 'bookTitle',
+  props: ['id'],
   data() {
     return {
       bookData: bookData
@@ -18,7 +19,7 @@ export default {
   computed: {
     bookTitle: function() {
       //JSONから本のタイトルを取得する
-      return bookData[0].book_title;
+      return bookData[this.id].book_title;
     }
   }
 }
