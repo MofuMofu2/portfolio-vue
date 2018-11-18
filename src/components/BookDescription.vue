@@ -1,16 +1,22 @@
 <template>
   <div class="book-description">
-    <div class="description" v-bind:description="text">{{ text }}</div>
+    <div class="description" v-bind:description="descText">{{ descText }}</div>
   </div>
 </template>
 
 <script>
+import bookData from '../assets/book-data.json'
 export default {
   name: 'bookDescription',
   data() {
     return {
-      text: ''
+      bookData: bookData
       }
+  },
+  computed: {
+    descText : function() {
+      return bookData[0].book_description
+    }
   }
 }
 </script>
