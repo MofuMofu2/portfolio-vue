@@ -12,7 +12,7 @@
       <div class="posts-info">
         <h4>関連URL</h4>
         <ul>
-          <li v-for="list in posts" v-bind:key="list.id"><a href="list.url">{{ list }}</a></li>
+          <li v-for="list in posts" v-bind:key="list.id"><a v-bind:href="list">{{ list }}</a></li>
         </ul>
       </div>
     </div>
