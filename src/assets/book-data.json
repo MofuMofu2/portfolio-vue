@@ -4,14 +4,21 @@
         "book_id": 1,
         "book_info": [
           {
-            "book_info_id": 1,
-            "book_info_title": "技術書典2 もふもふちゃんの戦い履歴",
-            "book_info_url": "http://rimarimadan.hatenablog.com/entry/2017/04/12/技術書典2_もふもふちゃんの戦い履歴"
+            "year": 2017,
+            "month": "4月",
+            "event_name": "技術書典2"
+          }
+        ],
+        "book_url": [
+          {
+            "book_url_id": 1,
+            "book_url_title": "技術書典2 もふもふちゃんの戦い履歴",
+            "book_url_url": "http://rimarimadan.hatenablog.com/entry/2017/04/12/技術書典2_もふもふちゃんの戦い履歴"
           },
           {
-            "book_info_id": 2,
-            "book_info_title": "商業本",
-            "book_info_url": "http://amzn.asia/d/be7bGtk",
+            "book_url_id": 2,
+            "book_url_title": "商業本",
+            "book_url_url": "http://amzn.asia/d/be7bGtk"
           }
         ],
         "book_title": "ログと情報をレッツ・ラ・まぜまぜ！～ELK Stack で作るBI環境～",
@@ -35,20 +42,27 @@
         "book_description": "『ログと情報をレッツ・ラ・まぜまぜ！～ELK Stack で作るBI環境～』の続編に当たる本です。今回はデータを収集・加工する工程に重点をおいて解説しています。Logstashを使ってALBのログを取得、filterプラグインを用いてデータを扱いやすい形に加工する方法について紹介しています。加えて、LogstashとFluentdの設定を見比べつつ、結局どちらを選択すればいいんだろう？ということも考えています。こちらは『Introduction Elastic Stack6』と合わせて商業化されました。",
         "book_id": 2,
         "book_info": [
+          {
+            "year": 2017,
+            "month": "10月",
+            "event_name": "技術書典3"
+          }
+        ],
+        "book_url": [
         {
-          "book_info_id": 1,
-          "book_info_title": "技術書典3 告知",
-          "book_info_url": "http://rimarimadan.hatenablog.com/entry/2017/10/17/技術書典3_告知",
+          "book_url_id": 1,
+          "book_url_title": "技術書典3 告知",
+          "book_url_url": "http://rimarimadan.hatenablog.com/entry/2017/10/17/技術書典3_告知"
         },
         {
-          "book_info_id": 2,
-          "book_info_title": "技術書典3に参加しました",
-          "book_info_url": "http://rimarimadan.hatenablog.com/entry/2017/10/23/技術書典3に参加しました",
+          "book_url_id": 2,
+          "book_url_title": "技術書典3に参加しました",
+          "book_url_url": "http://rimarimadan.hatenablog.com/entry/2017/10/23/技術書典3に参加しました"
         },
         {
-          "book_info_id": 3,
-          "book_info_title": "商業本",
-          "book_info_url": "http://amzn.asia/d/e3iTGAa",
+          "book_url_id": 3,
+          "book_url_title": "商業本",
+          "book_url_url": "http://amzn.asia/d/e3iTGAa"
         }
         ],
         "book_title": "データを加工する技術",
@@ -73,19 +87,26 @@
         "book_id": 3,
         "book_info": [
           {
-            "book_info_id": 1,
-            "book_info_title": "技術書典4にサークル参加します！",
-            "book_info_url": "http://rimarimadan.hatenablog.com/entry/2018/04/17/技術書典4にサークル参加します！",
+            "year": 2018,
+            "month": "4月",
+            "event_name": "技術書典4"
+          }
+        ],
+        "book_url": [
+          {
+            "book_url_id": 1,
+            "book_url_title": "技術書典4にサークル参加します！",
+            "book_url_url": "http://rimarimadan.hatenablog.com/entry/2018/04/17/技術書典4にサークル参加します！"
           },
           {
-            "book_info_id": 2,
-            "book_info_title": "技術書典4に参加しました。",
-            "book_info_url": "http://rimarimadan.hatenablog.com/entry/2018/04/23/技術書典4に参加しました%E3%80%82",
+            "book_url_id": 2,
+            "book_url_title": "技術書典4に参加しました。",
+            "book_url_url": "http://rimarimadan.hatenablog.com/entry/2018/04/23/技術書典4に参加しました%E3%80%82"
           },
           {
-            "book_info_id": 3,
-            "book_info_title": "商業本",
-            "book_info_url": "http://amzn.asia/d/e3iTGAa",
+            "book_url_id": 3,
+            "book_url_title": "商業本",
+            "book_url_url": "http://amzn.asia/d/e3iTGAa"
           }
         ],
         "book_title": "Introduction Elastic Stack6",
@@ -108,21 +129,28 @@
     {
         "book_description": "新卒4年目時点で感じた「こういう風に学べばよかった」「こういう風に質問すればよかった/されると嬉しい」「こんな人にはなりたくないなあ」「どうやって調べたらいいんだろう」的なエモポエムに対する感想＋もふもふちゃんのエモポエム集です。自分への戒め＋1年目で知ってたらもっと変わったかもな〜〜〜他の人にも教えたろ！みたいないい迷惑の知見を布教するつもりで書いた本その1です。",
         "book_id": "4",
-        "book_info":[
+        "book_info": [
           {
-            "book_info_id": 1,
-            "book_info_title": "技術書典4にサークル参加します！",
-            "book_info_url": "http://rimarimadan.hatenablog.com/entry/2018/04/17/技術書典4にサークル参加します！",
+            "year": 2018,
+            "month": "4月",
+            "event_name": "技術書典4"
+          }
+        ],
+        "book_url":[
+          {
+            "book_url_id": 1,
+            "book_url_title": "技術書典4にサークル参加します！",
+            "book_url_url": "http://rimarimadan.hatenablog.com/entry/2018/04/17/技術書典4にサークル参加します！"
           },
           {
-            "book_info_id": 2,
-            "book_info_title": "技術書典4に参加しました。",
-            "book_info_url": "http://rimarimadan.hatenablog.com/entry/2018/04/23/技術書典4に参加しました%E3%80%82",
+            "book_url_id": 2,
+            "book_url_title": "技術書典4に参加しました。",
+            "book_url_url": "http://rimarimadan.hatenablog.com/entry/2018/04/23/技術書典4に参加しました%E3%80%82"
           },
           {
-            "book_info_id": 3,
-            "book_info_title": "とらのあな通販",
-            "book_info_url": "https://ec.toranoana.jp/tora_r/ec/item/040030674964",
+            "book_url_id": 3,
+            "book_url_title": "とらのあな通販",
+            "book_url_url": "https://ec.toranoana.jp/tora_r/ec/item/040030674964"
           }
         ],
         "book_title": "ひよこエンジニアに送るお仕事サバイバルガイド",
@@ -145,11 +173,18 @@
     {
         "book_description": "『ひよこエンジニアに送るお仕事サバイバルガイド』では書けなかったようなブラックなネタ（温めておいた）だけを集めて書いたのですが、このときはもう転職していたのですっかりやる気がなくなって…はないです。もふもふちゃんが仕事で出会ってやだったな〜〜〜と思った人のアンチパターン事例を集めました。自分が仲間入りしないように頑張ります。",
         "book_id": "5",
-        "book_info":[
+        "book_info": [
           {
-            "book_info_id": 1,
-            "book_info_title": "コミックマーケット94に出場します",
-            "book_info_url": "http://rimarimadan.hatenablog.com/entry/2018/07/17/コミックマーケット94に出場します",
+            "year": 2018,
+            "month": "8月",
+            "event_name": "コミックマーケット94"
+          }
+        ],
+        "book_url":[
+          {
+            "book_url_id": 1,
+            "book_url_title": "コミックマーケット94に出場します",
+            "book_url_url": "http://rimarimadan.hatenablog.com/entry/2018/07/17/コミックマーケット94に出場します"
           }
         ],
         "book_title": "ひよこエンジニアに送るサバイバルガイド 〜深淵の闇を見た大人編〜",
@@ -172,16 +207,23 @@
     {
         "book_description": "Webアプリケーション関連の用語、色々あって毎回調べ直すのめんどくさ…そうだ用語集を作ろう！と思って原稿を始めました。進めるうちに「用語集だと結局読まない気がする」と思い始め、問題を考えて回答を作れば理解も深まるのでは…という結論に至りました。理解が深まったか…はちょっと自信がありませんが、学校の定期テストを考えている先生はほんと大変だなという気持ちになりました。通販は大好きなとらのあなさんにお願いしました。個人的にもお世話になっているので、とらのあな専売シールをつけてもらいたかったんです。",
         "book_id": "6",
-        "book_info":[
+        "book_info": [
           {
-            "book_info_id": 1,
-            "book_info_title": "技術書典5に参加できるか怪しかったけど参加できた話",
-            "book_info_url": "http://rimarimadan.hatenablog.com/entry/2018/10/10/技術書典5に参加できるか怪しかったけど参加で",
+            "year": 2018,
+            "month": "10月",
+            "event_name": "技術書典5"
+          }
+        ],
+        "book_url":[
+          {
+            "book_url_id": 1,
+            "book_url_title": "技術書典5に参加できるか怪しかったけど参加できた話",
+            "book_url_url": "http://rimarimadan.hatenablog.com/entry/2018/10/10/技術書典5に参加できるか怪しかったけど参加できた話"
           },
           {
-            "book_info_id": 2,
-            "book_info_title": "技術書典のサークルページ",
-            "book_info_url": "https://techbookfest.org/event/tbf05/circle/41000006",
+            "book_url_id": 2,
+            "book_url_title": "技術書典のサークルページ",
+            "book_url_url": "https://techbookfest.org/event/tbf05/circle/41000006"
     
           }
         ],
