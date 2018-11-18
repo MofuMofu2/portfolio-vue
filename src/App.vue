@@ -5,7 +5,7 @@
       <book-title></book-title>
     </div>
     <div class="main">
-      <button class="back_button" type="button">
+      <button class="back_button" type="button" v-on:click="removeCount">
         <img v-bind:src="left_arrow" alt="back">
       </button>
       <div class="left-contents">
@@ -17,7 +17,7 @@
         <book-info></book-info>
         <booth-button></booth-button>
       </div>
-      <button class="next_button">
+      <button class="next_button" v-on:click="addCount">
         <img v-bind:src="right_arrow" alt="next">
       </button>
     </div>
@@ -28,6 +28,7 @@
 <script>
 import 'normalize.css'
 import titleHeader from './components/Header.vue'
+import bookData from './assets/book-data.json'
 import bookDescription from './components/BookDescription.vue'
 import bookImage from './components/BookImage.vue'
 import bookInfo from './components/BookInfo.vue'
@@ -38,6 +39,7 @@ import pageFooter from './components/Footer.vue'
 
 export default {
   name: 'app',
+  props: ['currentBookId'],
   components: {
     'title-header': titleHeader,
     'book-description':bookDescription,
@@ -50,10 +52,30 @@ export default {
   },
   data() {
     return {
+      bookData: bookData,
+      bookId: 0,
       left_arrow: require("./assets/arrow/baseline-keyboard_arrow_left-24px.svg"),
-      right_arrow: require("./assets/arrow/baseline-keyboard_arrow_right-24px.svg"),
+      right_arrow: require("./assets/arrow/baseline-keyboard_arrow_right-24px.svg")
     }
+  },
+  methods: {
+    addCount() {
+      if (this.bookId !== bookData.length ) {
+        return this.bookId++;
+      } else {
+        return;
+      }
+    },
+    removeCount() {
+      if (this.bookId !== 0) {
+        return this.bookId--;
+      } else {
+        return 0;
+      }
+    }
+
   }
+
 }
 </script>
 
