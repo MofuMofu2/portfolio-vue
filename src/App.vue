@@ -5,6 +5,9 @@
       <book-title></book-title>
     </div>
     <div class="main">
+      <button class="back_button" type="button">
+        <img v-bind:src="left_arrow" alt="back">
+      </button>
       <div class="left-contents">
         <book-image></book-image>
         <description-list></description-list>
@@ -14,6 +17,9 @@
         <book-info></book-info>
         <booth-button></booth-button>
       </div>
+      <button class="next_button">
+        <img v-bind:src="right_arrow" alt="next">
+      </button>
     </div>
     <page-footer></page-footer>
   </div>
@@ -41,6 +47,12 @@ export default {
     'booth-button': boothButton,
     'description-list': descriptionList,
     'page-footer': pageFooter
+  },
+  data() {
+    return {
+      left_arrow: require("./assets/arrow/baseline-keyboard_arrow_left-24px.svg"),
+      right_arrow: require("./assets/arrow/baseline-keyboard_arrow_right-24px.svg"),
+    }
   }
 }
 </script>
