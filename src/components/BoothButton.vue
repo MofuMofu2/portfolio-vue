@@ -1,17 +1,24 @@
 <template>
   <div class="booth-button">
     <div class="button">
-      <a v-bind:href="url"><p>電子版をポチる</p></a>
+      <a v-bind:href="boothUrl"><p>電子版をポチる</p></a>
     </div>
   </div>
 </template>
 
 <script>
+import bookData from '../assets/book-data.json'
 export default {
   name: 'boothButton',
   data() {
     return {
-        url: ''
+        bookData: bookData
+    }
+  },
+  computed: {
+    boothUrl: function() {
+      // JSONからBOOTHのURLを取得して返却する
+      return bookData[0].booth_url;
     }
   }
 }
