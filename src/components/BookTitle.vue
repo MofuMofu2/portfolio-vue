@@ -1,7 +1,7 @@
 <template>
   <div class="book-title">
     <div class="fanbook-title">
-      <div class="fan-book" v-bind:title="bookTitle" v-bind:id="currentBookId">{{ bookTitle }}</div>
+      <div class="fan-book" v-bind:title="bookTitle">{{ bookTitle }}</div>
     </div>
   </div>
 </template>
