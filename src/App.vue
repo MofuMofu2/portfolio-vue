@@ -14,8 +14,8 @@
       </div>
       <div class="right-contents">
         <book-description v-bind:id="currentBookId"></book-description>
-        <book-info></book-info>
-        <booth-button></booth-button>
+        <book-info v-bind:id="currentBookId"></book-info>
+        <booth-button v-bind:id="currentBookId"></booth-button>
       </div>
       <button class="next_button" v-on:click="addCount">
         <img v-bind:src="right_arrow" alt="next">
