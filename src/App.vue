@@ -10,10 +10,10 @@
       </button>
       <div class="left-contents">
         <book-image></book-image>
-        <description-list></description-list>
+        <description-list v-bind:id="currentBookId"></description-list>
       </div>
       <div class="right-contents">
-        <book-description></book-description>
+        <book-description v-bind:id="currentBookId"></book-description>
         <book-info></book-info>
         <booth-button></booth-button>
       </div>
