@@ -10,6 +10,7 @@
 import bookData from '../assets/book-data.json'
 export default {
   name: 'bookTitle',
+  props: ['id'],
   data() {
     return {
       bookData: bookData
@@ -18,7 +19,7 @@ export default {
   computed: {
     bookTitle: function() {
       //JSONから本のタイトルを取得する
-      return bookData[0].book_title;
+      return bookData[this.id].book_title;
     }
   }
 }

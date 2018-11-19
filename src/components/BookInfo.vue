@@ -23,6 +23,7 @@
 import bookData from '../assets/book-data.json'
 export default {
   name: 'bookInfo',
+  props: ['id'],
   data() {
     return {
       bookData: bookData
@@ -32,7 +33,7 @@ export default {
     infoTexts: function() {
       const info = [];
       // JSONからinfoTextsに必要なデータを抜く。データは1冊の本に1つしかないのがわかっているので、配列の一番目の値を取得する。
-      const arrayData = bookData[0].book_info;
+      const arrayData = bookData[this.id].book_info;
       const year = arrayData[0].year;
       const month = arrayData[0].month;
       const eventName = arrayData[0].event_name;
@@ -46,8 +47,8 @@ export default {
       // 最終的に返却したい配列を定義
       const url = [];
       // JSON内のbook＿urlの配列の長さ・配列のデータを取得し、本のURLの値だけを持っている配列を作成する。
-      const arrayLength = bookData[0].book_url.length;
-      const arrayData = bookData[0].book_url;
+      const arrayLength = bookData[this.id].book_url.length;
+      const arrayData = bookData[this.id].book_url;
       for(let count = 0; count < arrayLength; count++){
         const data = arrayData[count].book_url_url;
         url.push(data);

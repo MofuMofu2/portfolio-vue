@@ -8,6 +8,7 @@
 import bookData from '../assets/book-data.json'
 export default {
   name: 'bookDescription',
+  props: ['id'],
   data() {
     return {
       bookData: bookData
@@ -15,7 +16,7 @@ export default {
   },
   computed: {
     descText : function() {
-      return bookData[0].book_description
+      return bookData[this.id].book_description
     }
   }
 }

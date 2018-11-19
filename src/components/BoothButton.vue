@@ -10,6 +10,7 @@
 import bookData from '../assets/book-data.json'
 export default {
   name: 'boothButton',
+  props: ['id'],
   data() {
     return {
         bookData: bookData
@@ -18,7 +19,7 @@ export default {
   computed: {
     boothUrl: function() {
       // JSONからBOOTHのURLを取得して返却する
-      return bookData[0].booth_url;
+      return bookData[this.id].booth_url;
     }
   }
 }
