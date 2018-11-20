@@ -1,16 +1,20 @@
 <template>
   <div class="book-image">
-    <img :src="image_src" alt="bookImage">
+    <img :src="frontImage" alt="bookImage">
+    <img :src="backImage" alt="bookImage">
   </div>
 </template>
 
 <script>
 export default {
   name: "bookImage",
-  props: '[id]',
-  data() {
-    return {
-      image_src: require("../assets/bookImage/1.png")
+  props: ['id'],
+  computed: {
+    frontImage: function() {
+      return require('../assets/bookImage/' + this.id + '/front.png')
+    },
+    backImage: function() {
+      return require('../assets/bookImage/' + this.id + '/back.png')
     }
   }
 }
