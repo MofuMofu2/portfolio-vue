@@ -7,6 +7,7 @@
 <script>
 export default {
   name: "bookImage",
+  props: '[id]',
   data() {
     return {
       image_src: require("../assets/bookImage/1.png")

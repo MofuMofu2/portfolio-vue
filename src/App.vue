@@ -9,7 +9,7 @@
         <img v-bind:src="left_arrow" alt="back">
       </button>
       <div class="left-contents">
-        <book-image></book-image>
+        <book-image v-bind:id="currentBookId"></book-image>
         <description-list v-bind:id="currentBookId"></description-list>
       </div>
       <div class="right-contents">
