@@ -5,8 +5,8 @@
       <book-title v-bind:id="currentBookId"></book-title>
     </div>
     <div class="main">
-      <button class="back_button" type="button" v-on:click="removeCount">
-        <img v-bind:src="left_arrow" alt="back">
+      <button class="back-button" type="button" v-on:click="removeCount">
+        👈
       </button>
       <div class="left-contents">
         <book-image v-bind:id="currentBookId"></book-image>
@@ -17,8 +17,8 @@
         <book-info v-bind:id="currentBookId"></book-info>
         <booth-button v-bind:id="currentBookId"></booth-button>
       </div>
-      <button class="next_button" v-on:click="addCount">
-        <img v-bind:src="right_arrow" alt="next">
+      <button class="next-button" v-on:click="addCount">
+        👉
       </button>
     </div>
     <page-footer></page-footer>
@@ -87,18 +87,25 @@ export default {
 <style>
   #app {
     background-color: #E5E400;
+    height: 100vh;
   }
   .main {
     display: flex;
-    height: 100vh;
     margin: 20px;
   }
 
+  button {
+    background-color: #3EBDE0;
+    border: none;
+    height: 30px;
+    width: 30px;
+  }
+
   .left-contents {
-    width: 50vh;
+    width: 50%;
   }
 
   .right-contents {
-    width: 50vh;
+    width: 50%;
   }
 </style>
