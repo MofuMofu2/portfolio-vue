@@ -95,10 +95,10 @@ export default {
   }
 
   .left-contents {
-    width: 50%;
+    width: 50vh;
   }
 
   .right-contents {
-    width: 50%;
+    width: 50vh;
   }
 </style>
