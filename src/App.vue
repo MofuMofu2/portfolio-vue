@@ -87,7 +87,7 @@ export default {
 <style>
   #app {
     background-color: #e5e400;
-    height: 100vh;
+    height: 100%;
   }
   .main {
     display: flex;
