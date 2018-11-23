@@ -18,8 +18,8 @@ export default {
 <style scoped>
   h1 {
     align-items: center;
-    background-color: #32BDED;
-    color: #E5E400;
+    background-color: #3ebde0;
+    color: #e5e400;
     display: flex;
     font-size: 28px;
     height: 50px;

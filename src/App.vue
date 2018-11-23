@@ -86,7 +86,7 @@ export default {
 
 <style>
   #app {
-    background-color: #E5E400;
+    background-color: #e5e400;
     height: 100vh;
   }
   .main {
@@ -95,14 +95,36 @@ export default {
   }
 
   button {
-    background-color: #3EBDE0;
+    background-color: #3ebde0;
     border: none;
     height: 30px;
     width: 30px;
   }
 
+  .book-title {
+    margin: 10px;
+  }
+
+  .back-button {
+    margin-top: 40%;
+    margin-right: 10px;
+  }
+
+  .next-button {
+    margin-top: 40%;
+    margin-left: 10px;
+  }
+
   .left-contents {
     width: 50%;
+  }
+
+  .book-image {
+    margin-left: 10px;
+  }
+
+  .description-list {
+    margin-left: 10px;
   }
 
   .right-contents {

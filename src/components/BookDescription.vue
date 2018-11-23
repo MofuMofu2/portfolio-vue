@@ -24,6 +24,7 @@ export default {
 
 <style scoped>
   .book-description {
+    color: #3a3839;
     margin-top: 20px;
     width: 570px;
   }
