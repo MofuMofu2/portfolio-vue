@@ -64,10 +64,13 @@ export default {
   },
   methods: {
     addCount() {
-      if (this.bookId !== bookData.length ) {
+      if (this.bookId < bookData.length -1) {
         return this.bookId++;
-      } else {
-        return;
+      } else if (this.bookId >= bookData.length - 1) {
+          this.bookId = bookData.length - 1;
+          return this.bookId;
+        } else {
+          return;
       }
     },
     removeCount() {
