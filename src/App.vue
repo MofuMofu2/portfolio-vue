@@ -90,6 +90,7 @@ export default {
   }
   .main {
     display: flex;
+    height: 100vh;
     margin: 20px;
   }
 
