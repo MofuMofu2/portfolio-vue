@@ -27,11 +27,8 @@ export default {
 
 <style scoped>
   .book-title {
-    background-color: #E5E400;
-    color: #32BDED;
+    background-color: #e5e400;
+    color: #3ebde0;
     font-size: 30px;
-  }
-  .fanbook-title {
-    width: 520px;
   }
 </style>

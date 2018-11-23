@@ -36,8 +36,8 @@ export default {
     justify-content: center;
   }
   a {
-    background-color: #32BDED;
-    color: #E40067;
+    background-color: #3ebde0;
+    color: #e40067;
     font-size: 20px;
     font-weight: bold;
     height: 60px;

@@ -25,7 +25,7 @@ export default {
 
 <style scoped>
   .page-footer {
-    background-color: #E5E400;
+    background-color: #e5e400;
     height: 100px;
   }
   .icons {
@@ -38,7 +38,7 @@ export default {
     width: 30px;
   }
   .page-footer p {
-    color: #32BDED;
+    color: #3ebde0;
     text-align: center;
   }
 

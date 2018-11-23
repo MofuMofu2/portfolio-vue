@@ -39,13 +39,16 @@ export default {
 
 <style scoped>
   .descriptiion-list {
+    color: #3a3839;
     height: 250px;
     margin-top: 20px;
     width: 570px;
   }
+
   h3 {
     font-size: 24px;
   }
+
   li {
     font-size: 16px;
     line-height: 26px;
